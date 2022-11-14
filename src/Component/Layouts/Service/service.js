@@ -18,9 +18,14 @@ export default function Service() {
     }, [])
 
     return (
-        <section id='service-section'>
+        <section id='home-service-section'>
             <div className='service-block'>
                 <div className='container'>
+                    <div className='heading-horizontal text-center'>
+                        <h5>what I do</h5>
+                        <h2>My Services</h2>
+                        <div className='border-horizontal'>&nbsp;</div>
+                    </div>
                     <div className='service-content'>
                         <div className='row'>
                             <div className='col-md-7'>

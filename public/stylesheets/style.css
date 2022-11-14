@@ -44,6 +44,7 @@ section {
 .navbar {
   height: 90px;
   z-index: 999;
+  border-bottom: 1px solid rgb(240, 240, 240);
   padding: 0 !important;
   background-color: white !important;
 }
@@ -543,8 +544,8 @@ a {
 /* portfolio styling */
 .portfolio_card {
   margin-bottom: 30px;
- padding: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
   transition: 0.3s;
   border-radius: 30px 30px 10px 10px;
   -webkit-border-radius: 30px 30px 10px 10px;
@@ -561,7 +562,7 @@ a {
 }
 
 .portfolio_card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .portfolio_card_container {
@@ -585,7 +586,7 @@ a {
   position: relative;
   cursor: pointer;
   height: 300px;
-  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.233);
+  box-shadow: 1px 1px 15px 2px rgba(0, 0, 0, 0.233);
   border-radius: 30px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
