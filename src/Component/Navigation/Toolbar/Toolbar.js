@@ -13,12 +13,12 @@ export default function Toolbar() {
                 <span className='navbar-toggler-icon'></span>
             </button>
 
-            {/* <div className='collapse navbar-collapse' id='mynavigation'>
+            <div className='collapse navbar-collapse' id='mynavigation'>
                 <ul className='navbar-nav ml-auto'>
                     <ToolbarItem/>
                 </ul >
 
-            </div > */}
+            </div >
         </nav >
     )
 }
